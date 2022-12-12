@@ -5,7 +5,6 @@ public class AWTEvent extends Frame implements ActionListener {
 
     TextField txt;
 
-    Label lbl;
     AWTEvent() {
         txt = new TextField(10);
         txt.setEditable(false);
